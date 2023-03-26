@@ -1,0 +1,113 @@
+.user-profile-edit div.header-section {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.user-profile-edit form {
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 58px;
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    font-size: 13px;
+}
+
+.user-profile-edit div.section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+    width: 90%;
+}
+
+.user-profile-edit div.section .label {
+    margin-right: 100px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.user-profile-edit .profile-pic {
+    width: 158px;
+    height: 158px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.user-profile-edit input[type="file"] {
+    border: none;
+}
+
+.user-profile-edit input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding-left: 20px;
+}
+
+.normal-button {
+    height: 26px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.user-profile-edit form button.clicky {
+    margin-left: 653px;
+    margin-top: 24px;
+}
+
+.clicky {
+    position: relative;
+    top: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: block;
+    background: black;
+    color: #eee;
+    padding: 12px 28px;
+    border: 0;
+    cursor: pointer;
+    font-size: 14px;
+    height: 48px;
+    opacity: 0.9;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+div {
+    display: block;
+}
+
+.user-profile-edit div.gender div {
+    display: inherit;
+    align-items: center;
+}
+
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    padding: initial;
+    border: initial;
+}
+
+.user-profile-edit div.gender div label {
+    width: 50px;
+    text-align: center;
+}
+
+
+.user-profile-edit label {
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
